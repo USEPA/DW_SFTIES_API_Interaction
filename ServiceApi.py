@@ -12,6 +12,7 @@ headerForApi = {
     "Authorization": f"Bearer {access_token}"
 }
 
+# retrieve list of water system in your primacy agency
 apiCall = requests.get(f"{inventoryApi}/inventory/water-system", headers=headerForApi)
 
 if apiCall.status_code != 200:
