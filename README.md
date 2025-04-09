@@ -9,6 +9,9 @@ The script returns a list of water systems in your primacy agency. However, you 
 # Where can I find the api endpoints
 Our swagger pages: https://dwsfties-uat.epa.gov/swagger
 
+# What else
+You can play around to filter the data or extract only the relevant information to programmatically interact with the api
+
 Note: This is just a quick proof-of-concept and best practices for software development has not been followed
 
 
