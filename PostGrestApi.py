@@ -19,6 +19,7 @@ headerForApi = {
     "Accept-Profile": primacyAgency
 }
 
+# retrieve list of water system in your primacy agency
 apiCall = requests.get(f"{postGrestApi}/dwp_water_system", headers=headerForApi)
 
 if apiCall.status_code != 200:
