@@ -4,8 +4,8 @@
 
 # Connect To DW-SFTIES
 Simple python programs to connect to DW-SFTIES api's using two different models
-1. Machine to machine (Limited access right now, need to get credentials from EPA)
-2. Using API tokens from the UAT environment (login into your cdx account --> DW-SFTIES UAT ---> Profile ---> Copy access token)
+1. Machine to machine (Limited access right now, need to get credentials from EPA). m2m_PostGrestApi.py and m2m_ServiceApi.py are for machine to machine.
+2. Using API tokens from the UAT environment (login into your cdx account --> DW-SFTIES UAT ---> Profile ---> Copy access token). ServiceApi.py and PostGrestApi.py uses API tokens from your profile in UAT environment.
 
 <!-- Added this diagram. Hopefully it helps show how a user vs a machine/system would query the APIs -->
 ```mermaid
