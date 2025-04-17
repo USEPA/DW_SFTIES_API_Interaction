@@ -1,11 +1,13 @@
 <!-- Moved this note up to the top and formatted it to highlight it -->
 > [!NOTE]
->  This is just a quick proof-of-concept and best practices for software development has not been followed
+>  This is just a quick proof-of-concept and best practices for software development has not been followed <br>
+>  <br>Access Tokens expire in approximately 2.99 hours (10799 seconds)<br>
+>  <br>Api access/functionality might be impacted during maintenance, however UAT participants will be notified of the downtime through the UAT listserve
 
 # Connect To DW-SFTIES
 Simple python programs to connect to DW-SFTIES api's using two different models
 1. Machine to machine (Limited access right now, need to get credentials from EPA). m2m_PostGrestApi.py and m2m_ServiceApi.py are for machine to machine.
-2. Using API tokens from the UAT environment (login into your cdx account --> DW-SFTIES UAT ---> Profile ---> Copy access token). ServiceApi.py and PostGrestApi.py uses API tokens from your profile in UAT environment.
+2. Using API tokens from the UAT environment (login into your CDX Test Account --> DW-SFTIES UAT ---> Profile ---> Copy access token). ServiceApi.py and PostGrestApi.py uses API tokens from your profile in UAT environment.
 
 <!-- Added this diagram. Hopefully it helps show how a user vs a machine/system would query the APIs -->
 ```mermaid
