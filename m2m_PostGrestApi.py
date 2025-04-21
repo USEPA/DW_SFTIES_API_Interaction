@@ -1,5 +1,5 @@
 # Note: This script calls the postgREST api for DW-SFTIES to get the all the water systems for your primacy agency. 
-First you interact with the server to retrieve the access token and then use the access token to interact with the api
+# First you interact with the server to retrieve the access token and then use the access token to interact with the api
 
 # request library to interact with the server/api
 # json to make the resulting json into a redable format
