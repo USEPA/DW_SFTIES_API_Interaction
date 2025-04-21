@@ -1,3 +1,5 @@
+# This script adds a new water system to your primacy agency
+
 # request library to interact with the server/api
 # json to make the resulting json into a redable format
 import requests
@@ -14,7 +16,7 @@ headerForApi = {
     "Content-Type": "application/json"
 }
 
-# note you can change all the values to the right of :
+# Note: you can change all the values to the right of : in newWaterSystem
 newWaterSystem = {
   "waterSystemId": "X19852075",
   "name": "myNewWaterSystem",
