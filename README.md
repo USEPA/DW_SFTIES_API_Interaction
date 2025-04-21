@@ -31,14 +31,18 @@ sequenceDiagram
   api ->> User: Response Data
 ```
 
-# What does the script return?
-The script returns a list of water systems in your primacy agency. However, you can modify the script to return any information associated with the Drinking Water program available in DW-SFTIES database.
+# What does the scripts do?
+The AddNewWaterSystem.py script lets you add a water system to your primacy agency.
+
+The PostGrestApi.py, ServiceApi.py, m2m_PostGrestApi.py and m2m_ServiceApi.py script returns a list of water systems in your primacy agency. 
+
+However, you can modify the scripts to retrieve or add any information associated with the Drinking Water program available in DW-SFTIES database.
 
 # Where can I find the api endpoints?
 Our swagger pages: https://dwsfties-uat.epa.gov/swagger
 
 # What else...?
-You can play around to filter the data or extract only the relevant information to programmatically interact with the api
+You can play around to add, filter the data or extract only the relevant information to programmatically interact with the api
 
 # Disclaimer
 Disclaimer: The United States Environmental Protection Agency (EPA) GitHub project code is provided on an "as is" basis and the user assumes responsibility for its use. EPA has relinquished control of the information and no longer has responsibility to protect the integrity, confidentiality, or availability of the information. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by EPA. The EPA seal and logo shall not be used in any manner to imply endorsement of any commercial product or activity by EPA or the United States Government
