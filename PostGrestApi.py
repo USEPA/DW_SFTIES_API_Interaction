@@ -1,3 +1,5 @@
+# Note: This script calls the postgREST api for DW-SFTIES to get the all the water systems for your primacy agency
+
 # request library to interact with the server/api
 # json to make the resulting json into a redable format
 import requests
