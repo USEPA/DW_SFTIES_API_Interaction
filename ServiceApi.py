@@ -1,3 +1,5 @@
+# Note: This script interacts with the service api at https://inventory.dwsfties-uat-api.epa.gov/inventory/water-system to retrieve all the water systems for you primacy agency
+
 # request library to interact with the server/api
 # json to make the resulting json into a redable format
 import requests
