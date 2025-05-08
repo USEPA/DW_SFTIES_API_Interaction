@@ -13,9 +13,9 @@ access_token = ''
 # login credentials
 credentials = {
     "grant_type":'password',
-    # username and password will be provided to you
-    "username": '<providedUsername>', 
-    "password": '<providedPassword>'
+    # client_id and client_secret will be provided to you
+    "username": '<provided_client_id>', 
+    "password": '<provided_client_secret>'
 }
 
 # header
